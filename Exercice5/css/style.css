@@ -1,10 +1,53 @@
-#bleu{
-background-color:blue;
+@media all{
+	#gmap_canvas img{
+		max-width:none!important;
+		background:none!important
+	}
 }
+	body{
+		background-color:#85C17E;
+	}
+@media screen {
 
-#rouge{
-background-color:red;
-}
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	/*         MENU              */
+
+	#menu ul li{
+		display:inline;
+		float: right;
+		
+	}
+
+	#menu ul{
+		padding-right: 300px;
+	}
+		
+	#google{
+		width:280px;
+		float:right;
+		margin-top:-65px;
+		padding:0px;
+		height:20px;
+	}
+	
+	#menu{
+		border-bottom:1px solid black;
+		padding:0px;
+		width:100%;
+		background-color:white;
+		padding-top:10px;
+
+
+	/*         FIN MENU          */	
+
+	#partie1 {
+		
+	}
+		 
+} 
 
 @media handheld and (max-width: 480px) and (min-width: 200px) {
 
