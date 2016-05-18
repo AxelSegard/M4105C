@@ -345,14 +345,20 @@
 	}
 	
 	#partie31{
-		width:108%;
+		width:100%;
 		border-right : none;
 		padding:0;
+		margin:0;
+		position:relative;
+		left:20px;
 	}
 	
 	#partie32{
-		width:107%;
-		margin-right:-25px;
+		width:100%;
+		margin:0;
+		padding:0;
+		position:relative;
+		left:20px;
 	}
 
 	#envoyer{
