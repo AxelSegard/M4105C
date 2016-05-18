@@ -352,7 +352,7 @@
 	
 	#partie32{
 		width:107%;
-		margin-right:-25px;
+		margin-right:-30px;
 	}
 
 	#envoyer{
