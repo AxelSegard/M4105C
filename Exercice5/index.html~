@@ -11,7 +11,7 @@
 		<div id="menu">
 			<img id="menu2" alt="menu portable" src="images/menu.png" width="50" height="50">
 			<ul>
-				<li><img id="logo" alt="Logo" src="images/logo.jpg"></li>
+				<img id="logo" alt="Logo" src="images/logo.jpg">
 				<li><a href="#">Contact</a></li>
 				<li><a href="#">Titre 1</a> | </li>
 				<li><a href="#">Accueil</a> | </li>
