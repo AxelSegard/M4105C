@@ -9,63 +9,58 @@
 	</head>
 	<body>
 		<div id="menu">
+			<img id="menu2" alt="menu portable" src="images/menu.png" width="50px" height="50px">
 			<ul>
-				<img alt="Logo" src="images/logo.jpg" width="75px" height="40px">
+				<img id="logo" alt="Logo" src="images/logo.jpg">
 				<li><a href="#">Contact</a></li>
 				<li><a href="#">Titre 1</a> | </li>
 				<li><a href="#">Accueil</a> | </li>
 			</ul>
+			<img id="tel" alt="telephone" src="images/tel.png" width="50px" height="50px">
 			
 			<p id="google">
 				<input type="search" name="recherche" placeholder="Rechercher"/><br/>
 			</p>
-
 		</div> 
-		<img id="banniere" alt="Bannière" src="images/image1.jpg" width="100%" height="200px">
-
+	
 		<div id="partie1">
-			<h1> Titre 1 </h1>
-			<p> 
+			<img id="banniere" alt="Bannière" src="images/image1.jpg" width="100%" height="200px">
+			<h1 id="titre1"> Titre 1 </h1>
+			<p id="p"> 
 
 			Cras a nisl scelerisque, condimentum ipsum at, sollicitudin urna. Integer lacinia nisl et arcu ultricies consequat. Ut volutpat lorem eu purus malesuada, nec lacinia augue scelerisque. Morbi fermentum turpis pulvinar luctus placerat. Etiam at ex ultricies, hendrerit orci nec, condimentum elit. Sed arcu libero, sagittis eu eros vitae, lobortis vehicula diam. Maecenas at purus vel arcu blandit mattis id nec lorem. Sed faucibus at elit eu consequat. Duis a odio malesuada, egestas lacus sed, molestie mauris. Cras ultricies suscipit tempor. 
 			</p>
 		</div>
 		<div id="partie2">
-			<div id="img2">
-			<img alt="Image 1" src="images/image2.jpg" width="150px" height="150px">
-			<h2>Titre1</h2>
-			<p> Description 1 </p>
-			</div>
-			<div id="img3">
-			<img alt="Image 2" src="images/image3.jpeg" width="150px" height="150px">
-			<h2>Titre2</h2>
-			<p> Description 2</p>
-			</div>
-			<div  id="img4">
-			<img alt="Image 3" src="images/image4.jpg" width="150px" height="150px">
-			<h2>Titre3</h2>
-			<p> Description 3 </p>
-			</div>
-			<div  id="img5">
-			<img alt="Image 4" src="images/image5.jpg" width="150px" height="150px">
-			<h2>Titre4</h2>
-			<p> Description 4 </p>
-			</div>
+
+					<div id="img2">
+					<img alt="Image 1" src="images/image2.jpg" width="100px" height="100px">
+					<h3>Titre1</h3>
+					<p> Description 1 </p>
+					</div>
+					<div id="img3">
+					<img alt="Image 2" src="images/image3.jpeg" width="100px" height="100px">
+					<h3>Titre2</h3>
+					<p> Description 2</p>
+					</div>
+					<div  id="img4">
+					<img alt="Image 3" src="images/image4.jpg" width="100px" height="100px">
+					<h3>Titre3</h3>
+					<p> Description 3 </p>
+					</div>
+					<div  id="img5">
+					<img alt="Image 4" src="images/image5.jpg" width="100px" height="100px">
+					<h3>Titre4</h3>
+					<p> Description 4 </p>
+					</div>
 		</div>
 		<div id="partie3">
 			<div id="partie31">
+				<h2> Titre h2 </h2>
 				<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-				<div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'>
+				<div id='gmap_canvas' >
 				</div>
 				<div>
-					<small>
-						<a href="http://embedgooglemaps.com">google maps carte</a>
-					</small>
-				</div>
-				<div>
-					<small>
-						<a href="http://www.youtubeembedcode.com">generate youtube code</a>
-					</small>
 					<script type='text/javascript'>
 						function init_map(){
 							var myOptions = {
@@ -85,21 +80,26 @@
 							});
 							infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
 					</script>
+					</div>
 			</div>
 			<div id="partie32">
-				<form>
-				<input type="name" name="Prénom" placeholder="Prénom"/><br/>
-				<input type="date" name="DatNai" placeholder="Date de naissance"/><br/>
-				<input type="name" name="Nom" placeholder="Nom"/><br/>
-				<input type="name" name="VilNai" placeholder="Ville de naissance"/><br/>
-				<input type="email" name="mail" placeholder="Adresse email"/><br/>
-				<input type="image" name="photo" placeholder="Photo"/><br/>
-				<textarea name="msg" placeholder="Message" rows="4"></textarea><br/>
-				<input type="submit" name="Envoyer" value="Envoyer"/><br/>
+				<form id="formulaire">
+				<h2>Titre h2 </h2>
+				<input type="name" name="Prénom" id="pnom" placeholder="Prénom"/>
+				<input type="name" name="Nom" id="nom" placeholder="Nom"/><br/>				
+				<input type="name" name="DatNai" id="datnai" placeholder="Date de naissance"/>
+				<input type="name" name="VilNai" id="ville" placeholder="Ville de naissance"/><br/>
+				<input type="email" name="mail" id="mail" placeholder="Adresse email"/><br/>
+				<input type="picture" name="photo" id="photo" placeholder="Photo"/><br/>
+				<textarea name="msg" placeholder="Message" id="msg" rows="4"></textarea><br/>
+				<input type="submit" name="Envoyer" id="envoyer" value="Envoyer"/><br/>
 				</form>
 			</div>
 		</div>
 	</body>
+	<footer>
+	<p id="PEL" > Segard Axel groupe PEL </p>
+	</footer>
 </html>
 
  

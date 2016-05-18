@@ -5,10 +5,15 @@
 	}
 }
 	body{
-		background-color:#85C17E;
+		background-color:#5F9EA0;
 	}
-@media screen {
+@media (min-width: 750px) {
 
+	#logo{
+		width:75px;
+		height:40px;
+	}
+	
 	body{
 		margin:0px;
 		padding:0px;
@@ -28,7 +33,7 @@
 	#google{
 		width:280px;
 		float:right;
-		margin-top:-70px;
+		margin-top:-65px;
 		padding:0px;
 		height:20px;
 	}
@@ -37,18 +42,316 @@
 		border-bottom:1px solid black;
 		padding:0px;
 		width:100%;
-		background-color:white;
+		background-color:Silver;
 		padding-top:10px;
-
+	}
 
 	/*         FIN MENU          */	
 
-	#partie1 {
-		
+	#partie1, #partie2, #partie3 {
+		margin : 0 40px;
 	}
-		 
+	
+	#partie2{
+		display:inline-block;
+		width:100%;
+		margin:0;
+	}
+	
+	#img2, #img3, #img4, #img5{
+		display:inline-block;
+		margin-left : 3%;
+		margin-right: 0;
+		width:20%;
+		text-align:center;
+	}
+	
+	#partie3{
+		display:inline-block;
+		width:90%;
+	}
+	
+	#partie31, #partie32{
+		display:inline-block;
+	}
+	
+	#partie31{
+		overflow:hidden;
+		height:440px;
+		width:46%;
+		border-right : 2px solid black;
+		padding-right: 3%;
+	}
+	
+	#partie32{
+		position:relative;
+		top:0px;
+		margin-left:3%;
+		width:46%;
+		float:right;
+	}
+	
+	#gmap_canvas{
+		display:inline-block;
+		height:280px;
+		width:100%;
+		position:relative;
+	}
+	
+	#formulaire{
+		display:inline-block;
+		width:100%;
+		overflow:hidden;
+	}
+	
+	#formulaire input,#formulaire textarea{
+		border : 1px solid black;
+	}
+	
+	#pnom, #nom, #ville, #datnai{
+		width:45%;
+		display:inline-block;
+		margin-bottom: 15px;
+		padding:3px 0 3px 0;
+	}
+	
+	#pnom, #datnai{
+		float:right;
+		margin :4px 0 0 0;
+	}
+	
+	#mail, #photo, #msg{
+		width:100%;
+		margin : 0 0 15px 0;
+		display:inline-block;
+		padding:3px 0 3px 0;
+	}
+	
+	#envoyer{
+		float:right;
+	}
+	
+	footer{
+		border-top: 1px solid black;
+		background:Silver;
+		padding-bottom:1px;
+		text-align:right;
+	}
+	
+	#menu2{
+		display:none;
+	}
+	
+	#tel{
+		display:none;
+	}
 } 
 
-@media handheld and (max-width: 480px) and (min-width: 200px) {
+@media (max-width: 749px) {
+	
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	
+	#banniere{
+		margin:0;
+	}
+	
+	#menu ul li{
+		position:relative;
+		display:inline;
+		float: right;
+		top:90px;
+		right:55%;
+	}
 
+	#logo{
+		position:absolute;
+		left:50%;
+		margin-left: -70px;
+	}
+	
+	#menu ul{
+		text-align:center;
+	}
+		
+	#google{
+		width:280px;
+		position:absolute;
+		left: 50%;
+		margin-left: 0;
+		margin-top:-15px;
+		padding:0px;
+		height:20px;
+		position:relative;
+		top: 102px;
+	}
+	
+	#menu{
+		border-bottom:1px solid black;
+		padding:0px;
+		width:100%;
+		background-color:Silver;
+		padding-top:10px;
+		height:150px;
+	}
+
+	#menu2{
+		display:none;
+	}
+	
+	#tel{
+		display:none;
+	}
+	/*         FIN MENU          */	
+
+	#titre1, #p{
+			margin-left:20px;
+	}
+	
+	#partie1, #partie2, #partie3 {
+		margin :0;
+	}
+	
+	#partie2{
+		display:inline-block;
+		width:100%;
+		margin:0;
+	}
+	
+	#img2, #img3, #img4, #img5{
+		display:inline-block;
+		margin-left : 3%;
+		margin-right: 0;
+		width:40%;
+		text-align:center;
+	}
+	
+	#partie3{
+		display:inline-block;
+		width:90%;
+	}
+	
+	#partie31, #partie32{
+		display:inline-block;
+	}
+	
+	#partie31{
+		overflow:hidden;
+		height:440px;
+		width:46%;
+		border-right : 2px solid black;
+		padding-right: 3%;
+		margin-left:5px;
+	}
+	
+	#partie32{
+		position:relative;
+		top:0px;
+		margin-left:3%;
+		width:46%;
+		float:right;
+	}
+	
+	#gmap_canvas{
+		display:inline-block;
+		height:280px;
+		width:100%;
+		position:relative;
+	}
+	
+	#formulaire{
+		display:inline-block;
+		width:100%;
+	}
+	
+	#formulaire input,#formulaire textarea{
+		border : 1px solid black;
+	}
+	
+	#mail, #photo, #msg, #pnom, #nom, #ville, #datnai{
+		width:100%;
+		margin : 0 0 15px 0;
+		display:inline-block;
+		padding:3px 0 3px 0;
+	}
+	
+	#envoyer{
+		width:100%;
+	}
+	
+	footer{
+		border-top: 1px solid black;
+		background:Silver;
+		padding-bottom:1px;
+		text-align:right;
+	}
+
+}
+
+@media (max-width: 480px) {
+	
+	#banniere{
+		margin:0;
+	}
+	
+	#menu ul li{
+		display:none;
+	}
+
+	#logo{
+		left:12%;
+		margin-top:0;
+		margin-left: -115px;
+		position:relative;
+		top:-76px;
+	}
+	
+	#google{
+		display:none;
+	}
+	
+	#menu{
+		height:80px;
+	}
+
+	#menu2{
+		display:inline;
+		position:relative;
+		top:10px;
+		left:5%;
+		margin-left: -10px;
+	}
+	
+	#tel{
+		display:inline;
+		float:right;
+		position:relative;
+		top:-160px;
+		right:3%;
+		margin-left: -10px;
+	}
+	/*         FIN MENU          */	
+		
+	
+	#img2, #img3, #img4, #img5{
+		width:100%;
+	}
+	
+	
+	#partie31, #partie32{
+		display:inline-block;
+	}
+	
+	#partie31{
+		width:108%;
+		border-right : none;
+		padding:0;
+	}
+	
+	#partie32{
+		width:107%;
+		margin-right:-35px;
+	}
 }
