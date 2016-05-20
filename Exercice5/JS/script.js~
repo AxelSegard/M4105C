@@ -1,13 +1,9 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     $("#menu2").click(function () {
 	console.log('click');
-        $(".burger").toggle();
+        $(".burger").toggle(800);
     });
-
-    /*$("#tel").click(function(){
-
-    });	*/
-});
+});*/
 
 
 function init_map(){

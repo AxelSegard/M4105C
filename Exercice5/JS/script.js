@@ -3,10 +3,6 @@ $(document).ready(function () {
 	console.log('click');
         $(".burger").toggle(800);
     });
-
-    /*$("#tel").click(function(){
-
-    });	*/
 });
 
 
