@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<LINK rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="JS/jquery-2.2.1.js" ></script>
+		<script type="text/javascript" src="JS/script.js" ></script>
 		<link rel="icon" href="images/favicon.ico"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<meta charset="utf-8" />
@@ -10,7 +12,7 @@
 	<body>
 		<div id="menu">
 			<img id="menu2" alt="menu portable" src="images/menu.png" width="50" height="50">
-			<ul>
+			<ul class="burger">
 				<img id="logo" alt="Logo" src="images/logo.jpg">
 				<li><a href="#">Contact</a></li>
 				<li><a href="#">Titre 1</a> | </li>
@@ -24,7 +26,7 @@
 		</div> 
 	
 		<div id="partie1">
-			<img id="banniere" alt="Bannière" src="images/image1.jpg" width="100%" height="200">
+			<img id="banniere" alt="Bannière" src="images/image1.jpg" height="200">
 			<h1 id="titre1"> Titre 1 </h1>
 			<p id="p"> 
 
@@ -61,7 +63,6 @@
 				<div id='gmap_canvas' >
 				</div>
 				<div>
-					<script type='text/javascript' src="JS/script.js" async></script>
 				</div>
 			</div>
 			<div id="partie32">

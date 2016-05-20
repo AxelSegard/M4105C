@@ -26,6 +26,10 @@
 		
 	}
 
+	#banniere{
+		width:100%;
+	}
+
 	#menu ul{
 		padding-right: 300px;
 	}
@@ -68,7 +72,7 @@
 	
 	#partie3{
 		display:inline-block;
-		width:90%;
+		width:88%;
 	}
 	
 	#partie31, #partie32{
@@ -156,6 +160,7 @@
 	
 	#banniere{
 		margin:0;
+		width:100%;
 	}
 	
 	#menu ul li{
@@ -177,7 +182,7 @@
 	}
 		
 	#google{
-		width:280px;
+		width:200px;
 		position:absolute;
 		left: 50%;
 		margin-left: 0;
@@ -216,7 +221,7 @@
 	
 	#partie2{
 		display:inline-block;
-		width:100%;
+		width:88%;
 		margin:0;;
 		left:27%;
 		margin-left: -115px;
@@ -253,7 +258,7 @@
 		position:relative;
 		top:0px;
 		margin-left:3%;
-		width:46%;
+		width:44%;
 		float:right;
 	}
 	
@@ -295,14 +300,15 @@
 
 @media (max-width: 480px) {
 	
-	#menu ul li{
+	ul li a{
 		display:none;
+
 	}
 
 	#logo{
 		left:12%;
 		margin-top:0;
-		margin-left: -115px;
+		margin-left: -55px;
 		position:relative;
 		top:-76px;
 	}

@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#menu2").click(function () {
 	console.log('click');
-        $(".burger").toggle(800);
+        $(".burger").toggle();
     });
 
     /*$("#tel").click(function(){
