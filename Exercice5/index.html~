@@ -78,10 +78,11 @@
 				</form>
 			</div>
 		</div>
+
+		<footer>
+			<p id="PEL" > Segard Axel groupe PEL </p>
+		</footer>
 	</body>
-<footer>
-	<p id="PEL" > Segard Axel groupe PEL </p>
-</footer>
 </html>
 
  

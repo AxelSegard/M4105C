@@ -18,6 +18,10 @@
 		margin:0px;
 		padding:0px;
 	}
+
+	#banniere{
+		width: 100%;
+	}
 	/*         MENU              */
 
 	#menu ul li{
@@ -156,6 +160,7 @@
 	
 	#banniere{
 		margin:0;
+		width:100%; 
 	}
 	
 	#menu ul li{
@@ -218,7 +223,7 @@
 		display:inline-block;
 		width:100%;
 		margin:0;;
-		left:27F%;
+		left:27%;
 		margin-left: -115px;
 		position:relative;
 	}
@@ -307,6 +312,9 @@
 		top:-76px;
 	}
 	
+	#banniere{
+		width:100%;
+	}
 	#google{
 		display:none;
 	}
